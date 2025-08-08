@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Recibo</title>
+</head>
+<body>
+    <h2>Enviar foto do recibo</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" capture="camera" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <a href="/historico">Ver histórico</a>
+</body>
+          </html>
